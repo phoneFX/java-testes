@@ -32,6 +32,8 @@ public class Program {
 		System.out.printf("Show the Area of Triangle X: %.2f%n", areaX);
 		System.out.printf("Show the Area of Triangle Y: %.2f%n", areaY);
 		
+		System.out.println("Say hi!!");
+		
 		if(areaX > areaY) {
 			System.out.println("Higher: X");
 		}
