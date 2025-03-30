@@ -29,7 +29,7 @@ public class Program {
 		double areaX = x.mathArea();
 		double areaY = y.mathArea();
 		
-		System.out.printf("Show the Area of Triangle X: %.2f%n", areaX);
+		System.out.printf("Area of Triangle X: %.2f%n", areaX);
 		System.out.printf("Area of Triangle Y: %.2f%n", areaY);
 		
 		
