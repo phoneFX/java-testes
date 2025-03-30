@@ -29,8 +29,8 @@ public class Program {
 		double areaX = x.mathArea();
 		double areaY = y.mathArea();
 		
-		System.out.printf("Area of Triangle X: %.2f%n", areaX);
-		System.out.printf("Area of Triangle Y: %.2f%n", areaY);
+		System.out.printf("Show the Area of Triangle X: %.2f%n", areaX);
+		System.out.printf("Show thr Area of Triangle Y: %.2f%n", areaY);
 		
 		if(areaX > areaY) {
 			System.out.println("Higher: X");
