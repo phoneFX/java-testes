@@ -32,6 +32,8 @@ public class Program {
 			System.out.println();
 		}
 		
+		System.out.println();
+		
 		System.out.print("Main Diagonal: ");
 		
 		for (int i = 0; i < matrix.length; i++) {
