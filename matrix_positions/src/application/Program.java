@@ -33,7 +33,7 @@ public class Program {
 		
 		System.out.println();
 		
-		System.out.println("Enter a number to see some information: ");
+		System.out.print("Enter a number to see some information: ");
 		int numberInfo = sc.nextInt();
 		
 		for (int i = 0; i < matrix.length; i++) {
@@ -53,7 +53,7 @@ public class Program {
 						}
 						
 						if (i > 0) {
-							System.out.printf("|Number up: %d|%n");
+							System.out.printf("|Number up: %d|%n", matrix[i-1][j]);
 						}
 			}
 		}
@@ -61,5 +61,5 @@ public class Program {
 		
 		sc.close();
 	}
-
+  }
 }
